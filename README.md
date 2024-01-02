@@ -7,6 +7,7 @@ Notes For Quick Reminders
 3. [Ports](#Ports)
 4. [Docker](#Docker)
 5. [Java](#Java)
+6. [Linux](#Linux)
 
 
 <!-----------------------------------------------------  -->
@@ -187,3 +188,77 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 </details>
 
 <!-- ---------------------------------------------------- -->
+# <a name="Linux">6. Linux</a>
+
+<details>
+<Summary>1. File and Directory Operations Commands</Summary>
+
+- flags
+```bash
+  -f: force 
+  -r: recursively
+  -n: number of lines 
+```
+- Print current working directory.
+```bash
+  pwd
+```
+- Remove files and directories.
+```bash
+  rm
+```
+- Search for files and directories.
+```bash
+  find 
+  e.g. find /path/to/search -name “*.txt” 
+```
+- Create an empty file
+```bash
+  touch
+```
+- Read File Content
+```bash
+  cat
+```
+- copy move
+```bash
+  cp
+  mv
+```
+</details>
+
+<details>
+<Summary>2. File Permission Commands</Summary>
+
+- Change file permissions.
+```bash
+  chmod
+  
+  u: User/owner permissions.
+  g: Group permissions.
+  o: Other permissions.
+  +: Add permissions.
+  –: Remove permissions.
+  =: Set permissions explicitly.
+
+  e.g. chmod u+rwx file.txt 
+```
+</details>
+<details>
+<Summary>3. Process Management Commands</Summary>
+
+- Display running processes.
+```bash
+  ps aux
+```
+- Monitor system processes in real-time.
+```bash
+  top
+```
+- Kill a Process
+```bash
+  kill <PID>
+```
+
+</details>
+
