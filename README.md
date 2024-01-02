@@ -172,13 +172,17 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 # <a name="Java">5. Java</a>
 
 <details>
-<Summary>checking verion</Summary>
+<Summary>Commands</Summary>
 
-
+- Checking JDK verion
 ```bash
   javac --version
 ```
-adfads
+- Checking Run Time Env verion
+```bash
+  java --version
+```
+
 
 </details>
 
