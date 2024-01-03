@@ -225,6 +225,29 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
   cp
   mv
 ```
+-used to search for specific patterns or regular expressions in text files or streams and display matching lines.
+```bash
+  grep
+
+  -i: Ignore case distinctions while searching.
+  -v: Invert the match, displaying non-matching lines.
+  -r or -R: Recursively search directories for matching patterns.
+  -l: Print only the names of files containing matches.
+  -n: Display line numbers alongside matching lines.
+  -w: Match whole words only, rather than partial matches.
+  -c: Count the number of matching lines instead of displaying them.
+  -e: Specify multiple patterns to search for.
+  -A: Display lines after the matching line.
+  -B: Display lines before the matching line.
+  -C: Display lines both before and after the matching line.
+
+  e.g.  grep -i “hello” file.txt
+  grep -v “error” file.txt
+  grep -r “pattern” directory/
+  grep -l “keyword” file.txt
+  grep -n “pattern” file.txt
+```
+
 </details>
 
 <details>
@@ -258,6 +281,40 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 - Kill a Process
 ```bash
   kill <PID>
+```
+</details>
+
+<Summary>4. System Information Commands</Summary>
+
+- Print system information.
+```bash
+  uname
+```
+- Display current username.
+```bash
+  whoami
+```
+- Disk Space
+```bash
+  df -h 
+```
+- Estimate file and directory sizes.
+```bash
+  df -h 
+  e.g. du -h directory/ 
+```
+- Display memory usage information.
+```bash
+  df -h 
+  e.g. du -h directory/ 
+```
+- Display CPU information.
+```bash
+  lscpu
+```
+- List PCI devices.
+```bash
+  lspci
 ```
 
 </details>
