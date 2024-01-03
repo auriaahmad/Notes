@@ -284,6 +284,7 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 ```
 </details>
 
+<details>
 <Summary>4. System Information Commands</Summary>
 
 - Print system information.
@@ -316,6 +317,4 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 ```bash
   lspci
 ```
-
 </details>
-
