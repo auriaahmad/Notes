@@ -318,3 +318,47 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
   lspci
 ```
 </details>
+
+<details>
+<Summary>5. Networking Commands</Summary>
+
+- details of all network interfaces.
+```bash
+  ifconfig
+```
+- echo requests to “google.com” to check connectivity.
+```bash
+  ping google.com
+```
+- Display network connections and statistics.
+```bash
+  netstat
+```
+- Securely connect to a remote server.
+```bash
+  ssh user@hostname 
+```
+- Securely copy files between hosts.
+```bash
+  scp
+
+  e.g. 
+  scp file.txt user@hostname:/path/to/destination 
+  securely copies “file.txt” to the specified remote host.
+```
+-  Download files from the web.
+```bash
+  wget
+
+  e.g. 
+  wget http://example.com/file.txt 
+  downloads “file.txt” from the specified URL.
+```
+- 	Transfer data to or from a server.
+```bash
+  curl
+  e.g.
+  curl http://example.com 
+  retrieves the content of a webpage from the specified URL.
+```
+</details>
