@@ -6,6 +6,8 @@ Notes For Quick Reminders
 2. [Markdown](#Markdown)
 3. [Ports](#Ports)
 4. [Docker](#Docker)
+5. [Java](#Java)
+
 
 <!-----------------------------------------------------  -->
 
@@ -164,3 +166,20 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 ```
 
 </details>
+
+<!-----------------------------------------------------  -->
+
+# <a name="Java">5. Java</a>
+
+<details>
+<Summary>checking verion</Summary>
+
+
+```bash
+  javac --version
+```
+
+
+</details>
+
+<!-- ---------------------------------------------------- -->
