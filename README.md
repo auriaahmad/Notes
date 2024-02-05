@@ -92,7 +92,31 @@ docker image prune
 </details>
 <details>
 <Summary>Compose Commands</Summary>
- 
+- Starts existing containers for a service.
+
+```bash
+docker-compose start
+```
+
+- Stops running containers without removing them.
+```bash
+docker-compose stop
+```
+
+- Pauses running containers of a service.
+```bash
+docker-compose pause
+```
+
+- Unpauses paused containers of a service.
+```bash
+docker-compose unpause
+```
+
+- Lists containers.
+```bash
+docker-compose ps 
+```
 - Rebuild and restart your Docker containers From Docker Compose file**
 ```bash
 docker-compose down
