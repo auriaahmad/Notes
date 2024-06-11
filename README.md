@@ -5,7 +5,7 @@ Notes For Quick Reminders
 1. [Vite](#Vite)
 1. [Markdown](#Markdown)
 
-# 1. Vite
+# <a name="Vite">1. Vite</a>
 
 <details>
 <Summary>How to Setup with VITE</Summary>
@@ -21,7 +21,7 @@ Notes For Quick Reminders
 
 </details>
 
-# 2. Markdown
+# <a name="Markdown">1. Markdown</a>
 
 <details>
 <Summary>Markdown Syntax</Summary>
