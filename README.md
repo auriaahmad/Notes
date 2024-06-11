@@ -1,9 +1,11 @@
 # Notes
 Notes For Quick Reminders
 
-# Index
+# Table of Content
 1. [Vite](#Vite)
 1. [Markdown](#Markdown)
+
+<!-----------------------------------------------------  -->
 
 # <a name="Vite">1. Vite</a>
 
@@ -18,22 +20,20 @@ Notes For Quick Reminders
 - If you already created a folder for project, leave project name empty. 
 - Select what you need from displayed list.
 
-
 </details>
 
-# <a name="Markdown">1. Markdown</a>
+<!-- ---------------------------------------------------- -->
+
+# <a name="Markdown">2. Markdown</a>
 
 <details>
-<Summary>Markdown Syntax</Summary>
-
-- Table of Contents Link
-
+<Summary>Table of Contents Link</Summary>
+ 
 ```bash
-    [a link](# MyTitle)
+[placeholder](# MyTitle)
 ```
 ```bash
-    [a link](# With-Spaces-Like-This)
+<a name="MyTitle">MyTitle</a>
 ```
-
 
 </details>
