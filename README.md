@@ -30,7 +30,7 @@ Notes For Quick Reminders
 <Summary>Table of Contents Link</Summary>
  
 ```bash
-[placeholder](# MyTitle)
+[placeholder](#MyTitle)
 ```
 ```bash
 <a name="MyTitle">MyTitle</a>
