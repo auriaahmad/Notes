@@ -3,7 +3,8 @@ Notes For Quick Reminders
 
 # Table of Content
 1. [Vite](#Vite)
-1. [Markdown](#Markdown)
+2. [Markdown](#Markdown)
+3. [Ports](#Ports)
 
 <!-----------------------------------------------------  -->
 
@@ -34,6 +35,22 @@ Notes For Quick Reminders
 ```
 ```bash
 <a name="MyTitle">MyTitle</a>
+```
+
+</details>
+<!-- ---------------------------------------------------- -->
+
+# <a name="Ports">3. Ports</a>
+
+<details>
+<Summary>Port List and Kill a Specific Port Process</Summary>
+ 
+```bash
+netstat -ano | findstr :<port_number>
+OUTPUT: TCP    0.0.0.0:<port_number>       0.0.0.0:0              LISTENING       <PID>
+```
+```bash
+taskkill /PID <PID> /F
 ```
 
 </details>
