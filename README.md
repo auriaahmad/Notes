@@ -8,6 +8,7 @@ Notes For Quick Reminders
 4. [Docker](#Docker)
 5. [Java](#Java)
 6. [Linux](#Linux)
+7. [Mosquitto MQTT Broker](#Mosquitto)
 
 
 <!-----------------------------------------------------  -->
@@ -493,5 +494,17 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
   e.g.
   curl http://example.com 
   retrieves the content of a webpage from the specified URL.
+```
+</details>
+
+<!-- ---------------------------------------------------- -->
+# <a name="Mosquitto">6. Mosquitto MQTT Broker</a>
+
+<details>
+<Summary>Mosquitto Commands</Summary>
+
+- 	Run Mosquitto Manually with conf file (Go to directory where conf file is)
+```bash
+  mosquitto -c mosquitto.conf -v
 ```
 </details>
