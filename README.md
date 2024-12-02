@@ -9,6 +9,7 @@ Notes For Quick Reminders
 5. [Java](#Java)
 6. [Linux](#Linux)
 7. [Mosquitto MQTT Broker](#Mosquitto)
+8. [Gen AI](#GenAI)
 
 
 <!-----------------------------------------------------  -->
@@ -498,7 +499,7 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 </details>
 
 <!-- ---------------------------------------------------- -->
-# <a name="Mosquitto">6. Mosquitto MQTT Broker</a>
+# <a name="Mosquitto">7. Mosquitto MQTT Broker</a>
 
 <details>
 <Summary>Mosquitto Commands</Summary>
@@ -506,5 +507,16 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 - 	Run Mosquitto Manually with conf file (Go to directory where conf file is)
 ```bash
   mosquitto -c mosquitto.conf -v
+```
+</details>
+<!-- ---------------------------------------------------- -->
+# <a name="GenAI">8. Gen AI</a>
+
+<details>
+<Summary>General Helpful Commands</Summary>
+
+- 	Checking GPU in ipynb
+```bash
+  !nvidia-smi
 ```
 </details>
