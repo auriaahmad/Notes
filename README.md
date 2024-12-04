@@ -11,6 +11,7 @@ Notes For Quick Reminders
 7. [Mosquitto MQTT Broker](#Mosquitto)
 8. [Gen AI](#GenAI)
 9. [WSL](#WSL)
+10. [Windows](#Windows)
 
 
 <!-----------------------------------------------------  -->
@@ -528,15 +529,32 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 <Summary>Check WSL Running</Summary>
 
 - 	Open Power Shell as Admin
--   Write Following Commands
+-   Write Following Commands and check for Ubuntu version:
 ```bash
   wsl --list --verbose
   wsl -l -v
 
   Output:
-    NAME      STATE           VERSION
+    NAME      STATE      VERSION
 * Ubuntu    Running         2
   Debian    Stopped         1
 
 ```
 </details>
+
+<!-- ---------------------------------------------------- -->
+# <a name="Windows">10. Windows</a>
+
+<details>
+<Summary>Process Management</Summary>
+
+- 	Finding a process by ID
+```bash
+  netstat -aon | findstr :<ID> 
+```
+- 	Kill a process by ID
+```bash
+  taskkill /PID <PID> /F 
+```
+</details>
+<!-- ---------------------------------------------------- -->
