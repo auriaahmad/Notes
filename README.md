@@ -10,6 +10,7 @@ Notes For Quick Reminders
 6. [Linux](#Linux)
 7. [Mosquitto MQTT Broker](#Mosquitto)
 8. [Gen AI](#GenAI)
+9. [WSL](#WSL)
 
 
 <!-----------------------------------------------------  -->
@@ -518,5 +519,24 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 - 	Checking GPU in ipynb
 ```bash
   !nvidia-smi
+```
+</details>
+<!-- ---------------------------------------------------- -->
+# <a name="WSL">9. WSL</a>
+
+<details>
+<Summary>Check WSL Running</Summary>
+
+- 	Open Power Shell as Admin
+-   Write Following Commands
+```bash
+  wsl --list --verbose
+  wsl -l -v
+
+  Output:
+    NAME      STATE           VERSION
+* Ubuntu    Running         2
+  Debian    Stopped         1
+
 ```
 </details>
