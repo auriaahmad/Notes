@@ -521,6 +521,10 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 ```bash
   !nvidia-smi
 ```
+- 	Checking CUDA Version
+```bash
+  nvcc --version
+```
 </details>
 <!-- ---------------------------------------------------- -->
 # <a name="WSL">9. WSL</a>
