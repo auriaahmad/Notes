@@ -419,6 +419,10 @@ CMD ["npm", "run", "preview", "--", "--host", "0.0.0.0"]
 ```bash
   kill <PID>
 ```
+- Name of Process
+```bash
+  tasklist /FI "PID eq <PID>"
+```
 </details>
 
 <details>
